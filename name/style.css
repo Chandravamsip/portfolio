@@ -1,0 +1,25 @@
+body {
+  font-family: "Oswald", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.15vmin;
+}
+body h1 {
+  font-size: 25em;
+  background-image: url("https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  color: #fff;
+  color: transparent;
+  background-size: contain;
+  -webkit-background-clip: text;
+  filter: drop-shadow(0px -3px 1px black);
+  animation: stripes 2s infinite alternate;
+}
+
+@keyframes stripes {
+  100% {
+    background-position: 100px 0, 100px 0, 100px 0;
+  }
+}
